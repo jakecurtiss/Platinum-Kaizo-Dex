@@ -1,18 +1,7 @@
-Platinum Kaizo Companion v3.1
+Platinum Kaizo Companion v3.2
 
-V3.1 brief
-- Keeps the v1 / Origin HeartGold-derived information architecture and Pokémon-specific UI components.
-- Cosmetic Sinnoh / Diamond / Pearl / Platinum redesign only outside Trainers.
-- Restores and preserves circular type icons and Gen IV Physical / Special / Status thumbnails.
-- Trainer section is the sole structural redesign: workbook split navigation + compact six-Pokémon battle sheets.
-- Encounter tables restored from the Platinum Kaizo workbook and ordered for story progression. Broken #REF formula rows are excluded rather than displayed.
-- Duplicate encounter maps remain separate and are labelled Area 1, Area 2, etc.
-- Spreadsheet values are authoritative; e.g. 89 (+10) displays 89 as the Kaizo value and +10 as the vanilla delta.
+Trainer section now shows every battle inline by split and area. Portrait uses up to 3 Pokémon per row (6 = 3x2); landscape/desktop uses up to 6 in one row. No trainer drill-down.
 
-Research cross-checks
-- Official PKCalc describes its Dex as including Pokémon, moves, locations and automatic encounter tracking.
-- PKCalc / official Lua tooling was used to cross-check canonical Sinnoh location naming.
-- ROM Hack Guides' Platinum Kaizo walkthrough was used as a secondary story-order reference; its checkpoint grouping is explicitly described as a reading of story order using the game's own tables.
+Encounter crash fixed by normalising missing location arrays/counts before rendering. Encounter order remains story progression order.
 
-Trainer split records embedded: 426
-Encounter areas embedded: 130
+All non-trainer sections retain the existing companion structure and Pokémon-specific type/category visual language.
