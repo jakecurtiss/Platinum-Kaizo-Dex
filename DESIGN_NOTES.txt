@@ -1,7 +1,6 @@
-Platinum Kaizo Companion v3.3
+Platinum Kaizo Companion v3.4
 
-Trainer cards tightened substantially on portrait. Six-Pokémon teams remain 3x2 in portrait and 6x1 in landscape/desktop. Trainer cards now have stronger borders, accent top edges, larger gaps and shadow separators between battles.
-
-Trainer Pokémon sprites are now loaded eagerly, with PokeAPI sprite URLs first and Pokémon Showdown fallbacks, to avoid Safari lazy-loading failures inside the scrolling trainer pane.
-
-Encounter timing is grouped inside the encounter method it belongs to. Morning/Day/Night grass, surf or fishing variants render within that method block rather than appearing as detached tables at the bottom. Story-order location navigation is unchanged.
+Fixes trainer Pokémon thumbnails by reusing the proven encounter sprite renderer.
+Day/Night encounter slots are nested under Grass rather than shown as standalone methods.
+Duplicate identical encounter slots are aggregated into a single probability row.
+Trainer split layout remains all trainers inline, 3-wide portrait / up to 6-wide landscape.
