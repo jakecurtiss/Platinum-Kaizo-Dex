@@ -1,9 +1,9 @@
 {
-  "name": "Platinum Kaizo Field Guide",
-  "short_name": "PK Field Guide",
+  "name": "Platinum Kaizo Companion V3.1",
+  "short_name": "PK Companion",
   "start_url": "./",
   "display": "standalone",
-  "background_color": "#090b12",
-  "theme_color": "#10131d",
+  "background_color": "#080d13",
+  "theme_color": "#111827",
   "icons": []
 }

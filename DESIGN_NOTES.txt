@@ -1,16 +1,18 @@
-Platinum Kaizo Field Guide v2.0
+Platinum Kaizo Companion v3.1
 
-Complete Sinnoh-first redesign, independent of the Origin HeartGold visual system.
+V3.1 brief
+- Keeps the v1 / Origin HeartGold-derived information architecture and Pokémon-specific UI components.
+- Cosmetic Sinnoh / Diamond / Pearl / Platinum redesign only outside Trainers.
+- Restores and preserves circular type icons and Gen IV Physical / Special / Status thumbnails.
+- Trainer section is the sole structural redesign: workbook split navigation + compact six-Pokémon battle sheets.
+- Encounter tables restored from the Platinum Kaizo workbook and ordered for story progression. Broken #REF formula rows are excluded rather than displayed.
+- Duplicate encounter maps remain separate and are labelled Area 1, Area 2, etc.
+- Spreadsheet values are authoritative; e.g. 89 (+10) displays 89 as the Kaizo value and +10 as the vanilla delta.
 
-Trainer Splits are parsed directly from:
-Roark Split, Gardenia Split, Fantina Split, Maylene Split, Wake Split, Byron Split, Candice Split, Volkner Split, Galactic Split, Elite Four Split
+Research cross-checks
+- Official PKCalc describes its Dex as including Pokémon, moves, locations and automatic encounter tracking.
+- PKCalc / official Lua tooling was used to cross-check canonical Sinnoh location naming.
+- ROM Hack Guides' Platinum Kaizo walkthrough was used as a secondary story-order reference; its checkpoint grouping is explicitly described as a reading of story order using the game's own tables.
 
-Trainer battle sheets preserve the workbook's team structure:
-- level / Pokémon
-- nature / ability
-- held item
-- four moves
-- AI flag chips where trainer-data flags can be matched
-
-Stat rule:
-89 (+10) means 89 is the final Platinum Kaizo stat and +10 is the change from vanilla.
+Trainer split records embedded: 426
+Encounter areas embedded: 130
