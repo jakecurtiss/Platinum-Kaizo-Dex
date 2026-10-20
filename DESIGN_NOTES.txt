@@ -1,0 +1,15 @@
+Platinum Kaizo Companion v1.0
+Source: Copy of Platinum Kaizo Docs.xlsx
+Base UI: Origin HeartGold Companion v7.1
+
+Data rules:
+- Spreadsheet values are authoritative.
+- Values such as "92 (+10)" are stored/displayed as 92 with +10 as the comparison delta.
+- The +10 is NOT applied again.
+- Pokémon entries: 505 (493 species plus supported Gen IV forms; Egg/Bad Egg excluded).
+- Locations: 130
+- Trainers: 928
+- Moves: 470
+- Items: 445
+- Trades: 4
+- Gifts/statics/eggs parsed: 52
