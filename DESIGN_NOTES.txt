@@ -20,3 +20,7 @@ Visual changes only:
 - Cosmetic detail/evolution/move/encounter card treatments
 
 Cache: pk-companion-v3-6
+
+V3.8: Special > Changes is categorised by change type with full changes visible inline. Move details now use embedded Platinum Kaizo effect/mechanics data instead of relying on a live vanilla API fetch.
+
+V3.8: Fix trainer-party sprite matching by stripping gender symbols from split-sheet species labels before Pokédex lookup.
