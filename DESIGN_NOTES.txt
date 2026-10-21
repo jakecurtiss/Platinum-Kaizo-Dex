@@ -1,6 +1,22 @@
-Platinum Kaizo Companion v3.4
+Platinum Kaizo Companion v3.6
 
-Fixes trainer Pokémon thumbnails by reusing the proven encounter sprite renderer.
-Day/Night encounter slots are nested under Grass rather than shown as standalone methods.
-Duplicate identical encounter slots are aggregated into a single probability row.
-Trainer split layout remains all trainers inline, 3-wide portrait / up to 6-wide landscape.
+COSMETIC-ONLY redesign over v3.5.
+
+Preserved unchanged:
+- Navigation, search, filters and all existing functionality
+- Pokédex / encounter / moves / items / special data structure
+- Trainer split flow and trainer card density
+- 3-wide portrait / up to 6-wide landscape trainer layout
+- Sprite, type and move-category rendering logic
+- Story-order encounter behaviour and day/night grouping
+
+Visual changes only:
+- New Sinnoh/Platinum palette: ink navy, platinum silver, Diamond cyan, Pearl pink, violet accents
+- Faceted/crystalline page texture
+- Reworked top banner and navigation styling
+- Section-specific cosmetic banner subtitles
+- New panel, table, card and selected-row treatments
+- Refined trainer battle framing without changing trainer structure
+- Cosmetic detail/evolution/move/encounter card treatments
+
+Cache: pk-companion-v3-6
