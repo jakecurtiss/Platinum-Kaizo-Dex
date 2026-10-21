@@ -1,26 +1,12 @@
-Platinum Kaizo Companion v3.6
+Platinum Kaizo Companion v4.0
 
-COSMETIC-ONLY redesign over v3.5.
+Refinement pass over v3.8.
+- Core navigation/data behaviour preserved.
+- Trainer cards keep all battles inline, 3-wide portrait / up to 6-wide landscape, now with trainer-class sprites and stronger battle separation.
+- Encounter presentation keeps story order and nests Morning/Day/Night inside the relevant method with larger sprites.
+- Move list now surfaces BP / accuracy / PP and a one-line effect summary before opening a move.
+- Special > Changes retains category filters with stronger scan-friendly styling.
+- Pokédex marks stat-modified species more clearly while retaining compact deltas.
+- Cosmetic Sinnoh / Diamond / Pearl / Platinum polish across banners, panels, tabs and selected states.
 
-Preserved unchanged:
-- Navigation, search, filters and all existing functionality
-- Pokédex / encounter / moves / items / special data structure
-- Trainer split flow and trainer card density
-- 3-wide portrait / up to 6-wide landscape trainer layout
-- Sprite, type and move-category rendering logic
-- Story-order encounter behaviour and day/night grouping
-
-Visual changes only:
-- New Sinnoh/Platinum palette: ink navy, platinum silver, Diamond cyan, Pearl pink, violet accents
-- Faceted/crystalline page texture
-- Reworked top banner and navigation styling
-- Section-specific cosmetic banner subtitles
-- New panel, table, card and selected-row treatments
-- Refined trainer battle framing without changing trainer structure
-- Cosmetic detail/evolution/move/encounter card treatments
-
-Cache: pk-companion-v3-6
-
-V3.8: Special > Changes is categorised by change type with full changes visible inline. Move details now use embedded Platinum Kaizo effect/mechanics data instead of relying on a live vanilla API fetch.
-
-V3.8: Fix trainer-party sprite matching by stripping gender symbols from split-sheet species labels before Pokédex lookup.
+Trainer-class sprites are loaded from Pokemon Showdown's public trainer sprite directory where a matching Gen IV/class sprite exists, with fallbacks for unsupported custom trainer names. Pokemon Showdown notes that many trainer sprites require artist credit; see its trainer-sprite credits directory for attribution.
