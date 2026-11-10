@@ -1,16 +1,10 @@
-Platinum Kaizo Companion v5.0
+Platinum Kaizo Companion v5.1
 
-Field Manual refinement over v4.0.
-- Core tab structure and source data preserved.
-- Dynamic Sinnoh section identities and upgraded banners/panels.
-- Global grouped search across Pokémon, encounters, trainers, moves and items (Ctrl/Cmd+K).
-- Local favourites and recently viewed shortcuts.
-- Two-Pokémon quick compare from the Pokédex.
-- Pokédex now surfaces recorded Kaizo stat/evolution changes in a compact summary.
-- Encounter pages gain nearby story-progress rail, route summary, linked trainers, and previous/next progression navigation.
-- Trainer splits keep every battle inline; boss battles get elevated styling, trainer art, highest-level highlighting, and an area jump control.
-- Move detail pages add quick effect tags and known Kaizo change callouts while retaining direct learner lists.
-- Team builder adds average Speed, offensive lean, type diversity and shared-weakness warnings.
-- Mobile/landscape density rules and existing Pokémon/type/category sprite systems are preserved.
-
-Trainer-class sprites load from Pokémon Showdown's public trainer sprite directory where a suitable sprite exists, with existing fallbacks for unsupported custom trainer names/classes.
+Focused move-clarity update built from v5.0.
+- Trainer move rows now show the move's Platinum Kaizo base power next to its name.
+- Physical, Special and Status use the original Gen IV category images at legible sizes.
+- Pokédex learnset rows now show base power alongside type and category.
+- Status moves show a dash instead of 0 BP; unknown move power is not invented.
+- Move catalogue retains existing BP/Accuracy/PP and gains full-size category sprites.
+- No changes to trainer party data, encounters, site navigation or layout model.
+- Service worker cache: pk-companion-v5-1.
