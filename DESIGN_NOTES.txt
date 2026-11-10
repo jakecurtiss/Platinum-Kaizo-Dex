@@ -1,10 +1,6 @@
-Platinum Kaizo Companion v5.1
-
-Focused move-clarity update built from v5.0.
-- Trainer move rows now show the move's Platinum Kaizo base power next to its name.
-- Physical, Special and Status use the original Gen IV category images at legible sizes.
-- Pokédex learnset rows now show base power alongside type and category.
-- Status moves show a dash instead of 0 BP; unknown move power is not invented.
-- Move catalogue retains existing BP/Accuracy/PP and gains full-size category sprites.
-- No changes to trainer party data, encounters, site navigation or layout model.
-- Service worker cache: pk-companion-v5-1.
+PLATINUM KAIZO COMPANION v6.0 | PROJECT DISTORTION
+Based on v5.2 without replacing core Pokédex, Encounters, Trainers, Moves, Items, Special or Team.
+NEW: Journey dashboard with locally saved routes, trainer completion and badges; Battle Lab with actual workbook-set move matchup warnings (not exact damage); Journal with captures/losses/notes; export/import of progress.
+Existing team builder remains the source of the player's team. Trainer cards have new Prepare / Mark defeated actions.
+Data: V5.2 embedded dataset. This release does not claim a complete PKCalc import, verified damage simulation or live emulator sync.
+Use the V6 progress export before clearing browser data.
